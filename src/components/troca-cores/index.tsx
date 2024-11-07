@@ -7,22 +7,22 @@ export default function TrocaCores() {
 
     return (
         <>
-            <div className={`bg-${color}-400`}>
+            <div className={color}>
                 <button
                     style={{ padding: "0.2rem" }}
                     className="border-2 border-solid m-3 bg-red-500"
-                    onClick={() => setColor("red")}>
+                    onClick={() => setColor("bg-red-300")}>
                     Red
                 </button>
                 <button
                     style={{ padding: "0.2rem" }}
                     className="border-2 border-solid m-3 bg-blue-500"
-                    onClick={() => setColor("blue")}>
+                    onClick={() => setColor("bg-blue-300")}>
                     Blue
                 </button><button
                     style={{ padding: "0.2rem" }}
                     className="border-2 border-solid m-3 bg-green-500"
-                    onClick={() => setColor("green")}>
+                    onClick={() => setColor("bg-green-300")}>
                     Green
                 </button>
             </div>
